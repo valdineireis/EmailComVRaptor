@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+
+div#conteudo {
+	margin:0 auto;
+	width: 440px;
+}
+
+form#formContato fieldset {
+	border:2px solid #888;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+form#formContato fieldset legend {
+	font-weight:bold;
+	color:#888888;
+}
+
+form#formContato p label {
+	float: left;
+	text-align:right;
+	margin-right:5px;
+	font-weight:bold;
+	font-family: "Lucida Grande", Verdana, sans-serif;
+	width:115px;
+	color:#444;
+}
+
+form#formContato p input[type='text'], form#formContato p textarea {
+	border:1px solid #999;
+	border-left-width:2px;
+	border-bottom-width:2px;
+	padding:2px;
+	width:250px;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+form#formContato p input[type='text']:focus, form#formContato p textarea:focus {
+	background-color:#f1f1f1;
+}
+
+form#formContato p textarea {
+	height:100px;
+}
+
+form#formContato fieldset {
+	width:400px;
+}
+
+form#formContato p#botoes {
+	float:right;
+	margin-right:40px;
+}
+
+form input[type='submit'], form input[type='buttom'], form input[type='reset'] {
+	border:1px solid #888;
+	border-left-width:2px;
+	border-bottom-width:2px;
+	cursor:pointer;
+	padding:5px 10px;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+form input[type='submit']:hover, form input[type='buttom']:hover, form input[type='reset']:hover {
+	border-color:#C3C3C3;
+}
+
+#erros {color: #ff0000;}
