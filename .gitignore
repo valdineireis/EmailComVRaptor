@@ -1,0 +1,10 @@
+# Eclipse
+build
+classes
+dist
+target
+WebContent/WEB-INF/classes
+
+# Java
+*.class
+*.war
