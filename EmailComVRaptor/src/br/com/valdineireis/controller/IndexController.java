@@ -47,7 +47,7 @@ public class IndexController {
 			Email.enviar(para, assunto, mensagem);
 			result.include("message", "E-mail enviado com sucesso.");
 		} catch (Exception e) {
-			result.include("error", e);
+			result.include("error", e.getMessage());
 		}
 		
 		result.redirectTo(this).index();
