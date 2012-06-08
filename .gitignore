@@ -1,9 +1,9 @@
 # Eclipse
-build
-classes
-dist
-target
-WebContent/WEB-INF/classes
+EmailComVRaptor/build
+EmailComVRaptor/classes
+EmailComVRaptor/dist
+EmailComVRaptor/target
+EmailComVRaptor/WebContent/WEB-INF/classes
 
 # Java
 *.class
